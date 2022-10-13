@@ -1,6 +1,6 @@
 <?php
 require 'functions.php';
-$connect = mysqli_connect("localhost","root","","nandapro_seismon");
+$connect = mysqli_connect("localhost","nandapro_nawi","nawi_seismonapp","nandapro_seismon");
 $data = mysqli_query($connect, "SELECT * from laporan_kerusakan");
 $jumlah_data = mysqli_num_rows($data);
 $data2 = mysqli_query($connect, "SELECT * from metadata");

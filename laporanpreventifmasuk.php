@@ -1,7 +1,7 @@
 <?php
 require 'functions.php';
 
-$connect = mysqli_connect("localhost","root","","nandapro_seismon");
+$connect = mysqli_connect("localhost","nandapro_nawi","nawi_seismonapp","nandapro_seismon");
 ?>
 <!DOCTYPE html>
 <html lang="en">

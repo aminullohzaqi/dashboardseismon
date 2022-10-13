@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
 $database = "nandapro_seismon";
-$username = "root";
-$password = "";
+$username = "nandapro_nawi";
+$password = "nawi_seismonapp";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
 // Check connection
